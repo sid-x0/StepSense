@@ -48,26 +48,25 @@ StepSense is a hardware–software integrated project that harvests energy from 
 ```
 StepSense/
 │
-├── data/                     # Raw and processed datasets
-│   ├── raw/                   # Directly from Arduino logs or manual entry
-│   └── processed/             # Cleaned/ready for ML
+├── data/                    
+│   ├── raw/                  
+│   └── processed/             
 │
-├── models/                    # Trained ML models (.pkl files)
+├── models/           
 │
-├── src/                       # All Python code
+├── src/                   
 │   ├── __init__.py
-│   ├── data_preprocessing.py  # Cleaning, feature extraction
-│   ├── step_classifier.py     # Classification (light/normal/heavy)
-│   ├── energy_prediction.py   # Energy prediction per step
-│   ├── footfall_forecast.py   # Time series forecasting
-│   └── visualize_data.py      # Your existing Python graph code
+│   ├── data_preprocessing.py  
+│   ├── step_classifier.py    
+│   ├── energy_prediction.py   
+│   ├── footfall_forecast.py   
+│   └── visualize_data.py     
 │
-├── arduino/                   # Arduino sketches
+├── arduino/                   
 │   └── stepsense.ino
-│
-├── requirements.txt           # Python dependencies
-├── README.md                  # Project description + usage
-└── .gitignore                 # Ignore large/unnecessary files
+│         
+├── README.md               
+└── .gitignore             
 ```
 
 ---
